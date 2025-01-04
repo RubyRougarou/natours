@@ -1,0 +1,19 @@
+{
+  "name": "2-natours",
+  "version": "1.0.0",
+  "description": "my first experience with express.js and back-end developement.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubyRougarou/natours.git"
+  },
+  "author": "ruby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RubyRougarou/natours/issues"
+  },
+  "homepage": "https://github.com/RubyRougarou/natours#readme"
+}
