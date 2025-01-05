@@ -2,9 +2,9 @@
   "name": "2-natours",
   "version": "1.0.0",
   "description": "my first experience with express.js and back-end developement.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/RubyRougarou/natours/issues"
   },
-  "homepage": "https://github.com/RubyRougarou/natours#readme"
+  "homepage": "https://github.com/RubyRougarou/natours#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
 }
