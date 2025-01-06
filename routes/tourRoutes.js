@@ -5,9 +5,12 @@ const {
   getATourById,
   updateATourById,
   deleteATourById,
+  checkId,
 } = require("./../controller/tourController");
 
 const router = express.Router();
+
+router.param("id", checkId);
 
 router.route("/").get(getAllTours).post(addTour);
 router
